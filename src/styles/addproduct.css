@@ -1,0 +1,81 @@
+.add-product-page {
+  padding: 30px 150px;
+}
+
+.add-product-heading {
+  text-align: center;
+}
+
+.product-input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 238, 217);
+}
+
+.add-product-submit-btn {
+  background-color: brown;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product-submit-btn:hover {
+  background-color: rgb(145, 145, 145);
+}
+
+.image-flex-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.upload-btn {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: gray;
+}
+
+.image-style {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.image-container svg {
+  color: rgb(112, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.image-container svg:hover {
+  color: rgb(190, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .add-product-page {
+    padding: 30px;
+  }
+}

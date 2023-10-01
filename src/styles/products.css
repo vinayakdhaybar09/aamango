@@ -1,0 +1,105 @@
+.product-page {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-page-functions {
+  display: flex;
+  justify-content: end;
+}
+
+.add-product-btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(255, 227, 151);
+  color: black;
+}
+
+.add-product-btn:hover {
+  background-color: #ffd375;
+}
+
+.product-table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.applications-table{
+    overflow-x: auto;
+}
+
+.product-icons-edit {
+  font-size: 20px;
+  color: rgb(0, 112, 0);
+  cursor: pointer;
+}
+
+.product-icons-edit:hover {
+  color: rgb(0, 194, 0);
+}
+
+.product-icons-delete {
+  font-size: 20px;
+  color: rgb(190, 0, 0);
+  cursor: pointer;
+}
+
+.product-icons-delete:hover {
+  color: rgb(255, 66, 66);
+}
+
+.product-details-view-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(218, 141, 0);
+  border: none;
+  border-radius: 5px;
+}
+
+.product-details-view-btn:hover {
+  background-color: #ffd375;
+}
+
+.change-price-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.edit-price-input{
+  padding: 5px;
+  border: 2px solid #3f0a0a;
+  outline: none;
+  width: 50%;
+}
+
+.change-price-btn{
+  padding: 6px 16px;
+  color: white;
+  background-color: #8f3d3d;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.change-price-btn:hover{
+  background-color: #611616;
+}
+
+@media screen and (max-width: 768px) {
+  .product-page {
+    padding: 10px;
+  }
+
+  .product-table-container {
+    padding: 0px;
+  }
+}
